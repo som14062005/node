@@ -905,7 +905,6 @@ changes:
     properties. Should return a string from the `protocols` list or `undefined`
     if none match. Only used when `isServer` is `true`.
   * `session` {Buffer} A `Buffer` instance containing a TLS session.
-  * `session` {Buffer} A `Buffer` instance containing a TLS session.
   * `requestOCSP` {boolean} If `true`, specifies that the OCSP status request
     extension will be added to the client hello and an `'OCSPResponse'` event
     will be emitted on the socket before establishing a secure communication
